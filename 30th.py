@@ -1,4 +1,4 @@
-Find the second largest element in a list.
+# Function to find the second largest number in a list
 
 def second_largest(numbers):
     first = second = float('-inf')
@@ -10,4 +10,3 @@ def second_largest(numbers):
         elif first > number > second:
             second = number 
     return second
-                

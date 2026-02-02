@@ -1,0 +1,1 @@
+# Print a pattern using nested loops.

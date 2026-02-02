@@ -1,8 +1,12 @@
 # Print all prime numbers between 1 and 100.
 
-num = range(2,101)
-for i in num:
-    print(i)
+for num in range(2, 101):
+    is_prime = True
 
-for i in range(2,101):
-    print(i)
+    for i in range(2, num):
+        if num % i == 0:
+            is_prime = False
+            break
+
+    if is_prime:
+        print(num)
