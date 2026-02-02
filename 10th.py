@@ -14,3 +14,5 @@ else:
         print(c, end=" ")
         a = b
         b = c
+a = 10
+b= 20
